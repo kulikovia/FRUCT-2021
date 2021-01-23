@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+xmlns:vCard='http://www.w3.org/2001/vcard-rdf/3.0#'
+xmlns:my='http://127.0.0.1/bg/ont/test1#'
+>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_1/'>
+<my:has_id>NW1</my:has_id>
+<my:has_type>NW_Device</my:has_type>
+<my:has_description>Network device. ID: 1</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_2/'>
+<my:has_id>NW2</my:has_id>
+<my:has_type>NW_Device</my:has_type>
+<my:has_description>Network device. ID: 2</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_3/'>
+<my:has_id>NW3</my:has_id>
+<my:has_type>NW_Device</my:has_type>
+<my:has_description>Network device. ID: 3</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_4/'>
+<my:has_id>NW4</my:has_id>
+<my:has_type>NW_Device</my:has_type>
+<my:has_description>Network device. ID: 4</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_5/'>
+<my:has_id>NW5</my:has_id>
+<my:has_type>NW_Device</my:has_type>
+<my:has_description>Network device. ID: 5</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_6/'>
+<my:has_id>NW6</my:has_id>
+<my:has_type>NW_Device</my:has_type>
+<my:has_description>Network device. ID: 6</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_7/'>
+<my:has_id>NW7</my:has_id>
+<my:has_type>NW_Device</my:has_type>
+<my:has_description>Network device. ID: 7</my:has_description>
+</rdf:Description>
+
+
+<rdf:Description rdf:about='http://127.0.0.1/STB_1/'>
+<my:has_id>STB1</my:has_id>
+<my:has_type>STB</my:has_type>
+<my:has_description>STB. ID: 1</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/STB_2/'>
+<my:has_id>STB2</my:has_id>
+<my:has_type>STB</my:has_type>
+<my:has_description>STB. ID: 2</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/STB_3/'>
+<my:has_id>STB3</my:has_id>
+<my:has_type>STB</my:has_type>
+<my:has_description>STB. ID: 3</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/STB_4/'>
+<my:has_id>STB4</my:has_id>
+<my:has_type>STB</my:has_type>
+<my:has_description>STB. ID: 4</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/STB_5/'>
+<my:has_id>STB5</my:has_id>
+<my:has_type>STB</my:has_type>
+<my:has_description>STB. ID: 5</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/STB_6/'>
+<my:has_id>STB6</my:has_id>
+<my:has_type>STB</my:has_type>
+<my:has_description>STB. ID: 6</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/STB_7/'>
+<my:has_id>STB7</my:has_id>
+<my:has_type>STB</my:has_type>
+<my:has_description>STB. ID: 7</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/STB_8/'>
+<my:has_id>STB8</my:has_id>
+<my:has_type>STB</my:has_type>
+<my:has_description>STB. ID: 8</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/STB_9/'>
+<my:has_id>STB9</my:has_id>
+<my:has_type>STB</my:has_type>
+<my:has_description>STB. ID: 9</my:has_description>
+</rdf:Description>
+
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_1/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_2/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_1/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_3/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_2/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_4/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_2/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_5/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_3/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_6/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_3/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_7/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_4/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/STB_1/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_4/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/STB_2/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_5/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/STB_3/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_5/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/STB_4/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_5/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/STB_5/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_6/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/STB_6/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_7/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/STB_7/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_7/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/STB_8/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/NW_Device_7/'>
+<my:includes>
+<rdf:Description rdf:about='http://127.0.0.1/STB_9/'>
+</rdf:Description>
+</my:includes>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/Services_core_node/'>
+<my:has_id>Services-1</my:has_id>
+ <my:has_type>Service</my:has_type>
+<my:has_description>Model type: Services, Node type: Service, Node name: Services_core_node</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/PPV/'>
+<my:has_id>Services-2</my:has_id>
+ <my:has_type>Service</my:has_type>
+<my:has_description>Model type: Services, Node type: Service, Node name: PPV</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/Watch_TV/'>
+<my:has_id>Services-3</my:has_id>
+ <my:has_type>Service</my:has_type>
+<my:has_description>Model type: Services, Node type: Service, Node name: Watch_TV</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/VOD/'>
+<my:has_id>Services-4</my:has_id>
+ <my:has_type>Service</my:has_type>
+<my:has_description>Model type: Services, Node type: Service, Node name: VOD</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/Time_shift/'>
+<my:has_id>Services-5</my:has_id>
+ <my:has_type>Service</my:has_type>
+<my:has_description>Model type: Services, Node type: Service, Node name: Time_shift</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/DVR/'>
+<my:has_id>Services-6</my:has_id>
+ <my:has_type>Service</my:has_type>
+<my:has_description>Model type: Services, Node type: Service, Node name: DVR</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_1/'>
+<my:has_id>USER1</my:has_id>
+ <my:has_type>User</my:has_type>
+<my:has_description>Model type: Billing, Node type: User, Node name: User_1</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_2/'>
+<my:has_id>USER2</my:has_id>
+ <my:has_type>User</my:has_type>
+<my:has_description>Model type: Billing, Node type: User, Node name: User_2</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_3/'>
+<my:has_id>USER3</my:has_id>
+ <my:has_type>User</my:has_type>
+<my:has_description>Model type: Billing, Node type: User, Node name: User_3</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_4/'>
+<my:has_id>USER4</my:has_id>
+ <my:has_type>User</my:has_type>
+<my:has_description>Model type: Billing, Node type: User, Node name: User_4</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_5/'>
+<my:has_id>USER5</my:has_id>
+ <my:has_type>User</my:has_type>
+<my:has_description>Model type: Billing, Node type: User, Node name: User_5</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_6/'>
+<my:has_id>USER6</my:has_id>
+ <my:has_type>User</my:has_type>
+<my:has_description>Model type: Billing, Node type: User, Node name: User_6</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_7/'>
+<my:has_id>USER7</my:has_id>
+ <my:has_type>User</my:has_type>
+<my:has_description>Model type: Billing, Node type: User, Node name: User_7</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_8/'>
+<my:has_id>USER8</my:has_id>
+ <my:has_type>User</my:has_type>
+<my:has_description>Model type: Billing, Node type: User, Node name: User_8</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_9/'>
+<my:has_id>USER9</my:has_id>
+ <my:has_type>User</my:has_type>
+<my:has_description>Model type: Billing, Node type: User, Node name: User_9</my:has_description>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_1/'>
+<my:uses_dev>
+<rdf:Description rdf:about='http://127.0.0.1/STB_1/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_2/'>
+<my:uses_dev>
+<rdf:Description rdf:about='http://127.0.0.1/STB_2/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_3/'>
+<my:uses_dev>
+<rdf:Description rdf:about='http://127.0.0.1/STB_3/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_4/'>
+<my:uses_dev>
+<rdf:Description rdf:about='http://127.0.0.1/STB_4/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_5/'>
+<my:uses_dev>
+<rdf:Description rdf:about='http://127.0.0.1/STB_5/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_6/'>
+<my:uses_dev>
+<rdf:Description rdf:about='http://127.0.0.1/STB_6/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_7/'>
+<my:uses_dev>
+<rdf:Description rdf:about='http://127.0.0.1/STB_7/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_8/'>
+<my:uses_dev>
+<rdf:Description rdf:about='http://127.0.0.1/STB_8/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://127.0.0.1/User_9/'>
+<my:uses_dev>
+<rdf:Description rdf:about='http://127.0.0.1/STB_9/'>
+</rdf:Description>
+</my:uses_dev>
+</rdf:Description>
+
+
+</rdf:RDF>

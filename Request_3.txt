@@ -1,0 +1,118 @@
+Request #3: Get time series of parameter values for selected element (User_device_1)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX my: <http://127.0.0.1/bg/ont/test1#>
+SELECT * 
+WHERE
+{
+    ?Prediction_detailes rdf:subject <http://127.0.0.1/STB_1/>  .  
+    ?Prediction_ID my:prediction_detailes ?Prediction_detailes .
+    ?Prediction_ID my:has_state_value ?State_value .
+    ?Prediction_ID my:prediction_timestamp ?Time .  
+
+ 
+
+    
+}
+
+
+Response:
+
+Prediction_detailes	Prediction_ID	State_value	Time
+t1334	<http://127.0.0.1/Prediction_100/>	ON	2020-11-19T01:00:00
+t1604	<http://127.0.0.1/Prediction_101/>	ON	2020-11-19T01:00:00
+t1621	<http://127.0.0.1/Prediction_102/>	OFF	2020-11-19T01:00:00
+t1455	<http://127.0.0.1/Prediction_103/>	OFF	2020-11-19T01:00:00
+t1033	<http://127.0.0.1/Prediction_104/>	ON	2020-11-19T02:00:00
+t1494	<http://127.0.0.1/Prediction_105/>	OFF	2020-11-19T02:00:00
+t1009	<http://127.0.0.1/Prediction_106/>	OFF	2020-11-19T02:00:00
+t1365	<http://127.0.0.1/Prediction_107/>	OFF	2020-11-19T02:00:00
+t1519	<http://127.0.0.1/Prediction_108/>	ON	2020-11-19T03:00:00
+t1408	<http://127.0.0.1/Prediction_109/>	ON	2020-11-19T03:00:00
+t1059	<http://127.0.0.1/Prediction_110/>	ON	2020-11-19T03:00:00
+t1562	<http://127.0.0.1/Prediction_111/>	ON	2020-11-19T03:00:00
+t1285	<http://127.0.0.1/Prediction_112/>	ON	2020-11-19T04:00:00
+t1142	<http://127.0.0.1/Prediction_113/>	OFF	2020-11-19T04:00:00
+t1363	<http://127.0.0.1/Prediction_114/>	ON	2020-11-19T04:00:00
+t1400	<http://127.0.0.1/Prediction_115/>	ON	2020-11-19T04:00:00
+t1084	<http://127.0.0.1/Prediction_116/>	ON	2020-11-19T05:00:00
+t1035	<http://127.0.0.1/Prediction_117/>	ON	2020-11-19T05:00:00
+t916	<http://127.0.0.1/Prediction_118/>	ON	2020-11-19T05:00:00
+t1105	<http://127.0.0.1/Prediction_119/>	ON	2020-11-19T05:00:00
+t1248	<http://127.0.0.1/Prediction_120/>	ON	2020-11-19T06:00:00
+t1164	<http://127.0.0.1/Prediction_121/>	OFF	2020-11-19T06:00:00
+t1398	<http://127.0.0.1/Prediction_122/>	ON	2020-11-19T06:00:00
+t1547	<http://127.0.0.1/Prediction_123/>	ON	2020-11-19T06:00:00
+t1161	<http://127.0.0.1/Prediction_124/>	ON	2020-11-19T07:00:00
+t1521	<http://127.0.0.1/Prediction_125/>	OFF	2020-11-19T07:00:00
+t1066	<http://127.0.0.1/Prediction_126/>	OFF	2020-11-19T07:00:00
+t1257	<http://127.0.0.1/Prediction_127/>	ON	2020-11-19T07:00:00
+t1504	<http://127.0.0.1/Prediction_128/>	OFF	2020-11-19T08:00:00
+t1534	<http://127.0.0.1/Prediction_129/>	ON	2020-11-19T08:00:00
+t1051	<http://127.0.0.1/Prediction_130/>	ON	2020-11-19T08:00:00
+t1235	<http://127.0.0.1/Prediction_131/>	OFF	2020-11-19T08:00:00
+t1167	<http://127.0.0.1/Prediction_132/>	ON	2020-11-19T09:00:00
+t1659	<http://127.0.0.1/Prediction_133/>	ON	2020-11-19T09:00:00
+t1028	<http://127.0.0.1/Prediction_134/>	ON	2020-11-19T09:00:00
+t1586	<http://127.0.0.1/Prediction_135/>	ON	2020-11-19T09:00:00
+t1125	<http://127.0.0.1/Prediction_136/>	OFF	2020-11-19T10:00:00
+t1514	<http://127.0.0.1/Prediction_137/>	ON	2020-11-19T10:00:00
+t961	<http://127.0.0.1/Prediction_138/>	OFF	2020-11-19T10:00:00
+t1133	<http://127.0.0.1/Prediction_139/>	OFF	2020-11-19T10:00:00
+t1127	<http://127.0.0.1/Prediction_140/>	OFF	2020-11-19T11:00:00
+t1222	<http://127.0.0.1/Prediction_141/>	ON	2020-11-19T11:00:00
+t1612	<http://127.0.0.1/Prediction_142/>	OFF	2020-11-19T11:00:00
+t1679	<http://127.0.0.1/Prediction_143/>	ON	2020-11-19T11:00:00
+t1479	<http://127.0.0.1/Prediction_144/>	OFF	2020-11-19T12:00:00
+t1247	<http://127.0.0.1/Prediction_145/>	OFF	2020-11-19T12:00:00
+t1269	<http://127.0.0.1/Prediction_146/>	ON	2020-11-19T12:00:00
+t1362	<http://127.0.0.1/Prediction_147/>	OFF	2020-11-19T12:00:00
+t1492	<http://127.0.0.1/Prediction_148/>	OFF	2020-11-19T13:00:00
+t920	<http://127.0.0.1/Prediction_149/>	OFF	2020-11-19T13:00:00
+t1540	<http://127.0.0.1/Prediction_150/>	ON	2020-11-19T13:00:00
+t1523	<http://127.0.0.1/Prediction_151/>	OFF	2020-11-19T13:00:00
+t1176	<http://127.0.0.1/Prediction_152/>	ON	2020-11-19T14:00:00
+t1328	<http://127.0.0.1/Prediction_153/>	OFF	2020-11-19T14:00:00
+t1340	<http://127.0.0.1/Prediction_154/>	OFF	2020-11-19T14:00:00
+t1487	<http://127.0.0.1/Prediction_155/>	OFF	2020-11-19T14:00:00
+t1112	<http://127.0.0.1/Prediction_156/>	ON	2020-11-19T15:00:00
+t1085	<http://127.0.0.1/Prediction_157/>	ON	2020-11-19T15:00:00
+t1580	<http://127.0.0.1/Prediction_158/>	ON	2020-11-19T15:00:00
+t1657	<http://127.0.0.1/Prediction_159/>	OFF	2020-11-19T15:00:00
+t1394	<http://127.0.0.1/Prediction_160/>	ON	2020-11-19T16:00:00
+t1135	<http://127.0.0.1/Prediction_161/>	ON	2020-11-19T16:00:00
+t1145	<http://127.0.0.1/Prediction_162/>	OFF	2020-11-19T16:00:00
+t1101	<http://127.0.0.1/Prediction_163/>	ON	2020-11-19T16:00:00
+t1531	<http://127.0.0.1/Prediction_164/>	ON	2020-11-19T17:00:00
+t1200	<http://127.0.0.1/Prediction_165/>	ON	2020-11-19T17:00:00
+t1227	<http://127.0.0.1/Prediction_166/>	ON	2020-11-19T17:00:00
+t1087	<http://127.0.0.1/Prediction_167/>	OFF	2020-11-19T17:00:00
+t1341	<http://127.0.0.1/Prediction_168/>	ON	2020-11-19T18:00:00
+t1426	<http://127.0.0.1/Prediction_169/>	OFF	2020-11-19T18:00:00
+t1397	<http://127.0.0.1/Prediction_170/>	ON	2020-11-19T18:00:00
+t1299	<http://127.0.0.1/Prediction_171/>	ON	2020-11-19T18:00:00
+t1486	<http://127.0.0.1/Prediction_172/>	ON	2020-11-19T19:00:00
+t1578	<http://127.0.0.1/Prediction_173/>	OFF	2020-11-19T19:00:00
+t1563	<http://127.0.0.1/Prediction_174/>	OFF	2020-11-19T19:00:00
+t1369	<http://127.0.0.1/Prediction_175/>	OFF	2020-11-19T19:00:00
+t1128	<http://127.0.0.1/Prediction_176/>	OFF	2020-11-19T20:00:00
+t1461	<http://127.0.0.1/Prediction_177/>	OFF	2020-11-19T20:00:00
+t1642	<http://127.0.0.1/Prediction_178/>	OFF	2020-11-19T20:00:00
+t1393	<http://127.0.0.1/Prediction_179/>	OFF	2020-11-19T20:00:00
+t1159	<http://127.0.0.1/Prediction_180/>	ON	2020-11-19T21:00:00
+t1371	<http://127.0.0.1/Prediction_181/>	ON	2020-11-19T21:00:00
+t1332	<http://127.0.0.1/Prediction_182/>	OFF	2020-11-19T21:00:00
+t1275	<http://127.0.0.1/Prediction_183/>	OFF	2020-11-19T21:00:00
+t1124	<http://127.0.0.1/Prediction_184/>	OFF	2020-11-19T22:00:00
+t1040	<http://127.0.0.1/Prediction_185/>	OFF	2020-11-19T22:00:00
+t1423	<http://127.0.0.1/Prediction_186/>	OFF	2020-11-19T22:00:00
+t1077	<http://127.0.0.1/Prediction_187/>	OFF	2020-11-19T22:00:00
+t1447	<http://127.0.0.1/Prediction_188/>	ON	2020-11-19T23:00:00
+t1459	<http://127.0.0.1/Prediction_189/>	ON	2020-11-19T23:00:00
+t1602	<http://127.0.0.1/Prediction_190/>	OFF	2020-11-19T23:00:00
+t1131	<http://127.0.0.1/Prediction_191/>	OFF	2020-11-19T23:00:00
+t1069	<http://127.0.0.1/Prediction_96/>	OFF	2020-11-19T00:00:00
+t1448	<http://127.0.0.1/Prediction_97/>	ON	2020-11-19T00:00:00
+t1329	<http://127.0.0.1/Prediction_98/>	OFF	2020-11-19T00:00:00
+t1290	<http://127.0.0.1/Prediction_99/>	ON	2020-11-19T00:00:00

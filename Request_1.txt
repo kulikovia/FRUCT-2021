@@ -1,0 +1,26 @@
+Request #1: Get parameter values for selected element (User_device_1)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX my: <http://127.0.0.1/bg/ont/test1#>
+SELECT * 
+WHERE
+{
+  ?Prediction_ID my:prediction_timestamp "2020-11-19T04:00:00" .
+  ?Prediction_ID my:has_state_value ?Value .
+  ?Prediction_ID my:prediction_detailes ?Prediction_detailes .
+  ?Prediction_detailes rdf:subject <http://127.0.0.1/STB_1/> .
+  ?Prediction_detailes rdf:object ?Service . 
+ 
+
+    
+}
+
+
+Response:
+
+Prediction_ID	Value	Prediction_detailes	Service
+<http://127.0.0.1/Prediction_113/>	OFF	t1142	WatchTV
+<http://127.0.0.1/Prediction_112/>	ON	t1285	VOD
+<http://127.0.0.1/Prediction_114/>	ON	t1363	nPVR
+<http://127.0.0.1/Prediction_115/>	ON	t1400	PPV
